@@ -1,0 +1,6 @@
+Service/__pycache__/bookservice.cpython-37.pyc
+Domain/__pycache__/book.cpython-37.pyc
+Domain/__pycache__/specification.cpython-37.pyc
+Repository/__pycache__/bookrepository.cpython-37.pyc
+app/__pycache__/__init__.cpython-37.pyc
+app/__pycache__/bookcontroller.cpython-37.pyc
