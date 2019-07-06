@@ -1,4 +1,5 @@
-from Repository.bookrepository import GetBooks
+from Repository.bookrepository import BookRepository
 
-def GetBooks():
-    return GetBooks()
+class BookService:
+    def GetBooks():
+        return BookRepository.GetBooks()

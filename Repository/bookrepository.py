@@ -1,6 +1,8 @@
-from Domain.book import Book
+import os
 import json
 
-def GetBooks():
-    data_file = open('book.json')
-    return json.loads(data_file.read())
+class BookRepository:
+    def GetBooks():
+        path = os.path.join(os.path.dirname(os.path.realpath('__file__')), 'books.json')
+        data_file = open(path)
+        return json.loads(data_file.read())
